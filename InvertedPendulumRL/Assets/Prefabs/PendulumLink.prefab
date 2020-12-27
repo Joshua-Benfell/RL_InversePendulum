@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6492225156430921107}
   - component: {fileID: 2659972143618266045}
   - component: {fileID: 6801891506133390835}
+  - component: {fileID: 4848493350683100668}
   m_Layer: 0
   m_Name: Weight
   m_TagString: Untagged
@@ -103,6 +104,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4848493350683100668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831147733885794433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8268413b6acec1194a671dca9731614a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4506659693468394249
 GameObject:
   m_ObjectHideFlags: 0
@@ -134,7 +147,7 @@ Transform:
   m_GameObject: {fileID: 4506659693468394249}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1.5, z: 0}
-  m_LocalScale: {x: 0.125, y: 1, z: 0.125}
+  m_LocalScale: {x: 0.0625, y: 1, z: 0.0625}
   m_Children: []
   m_Father: {fileID: 116405583029352864}
   m_RootOrder: 1
@@ -224,7 +237,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -1.125}
-  m_ConnectedAnchor: {x: 0, y: 0.375}
+  m_ConnectedAnchor: {x: 0, y: 0.5}
   m_UseMotor: 1
   m_Motor:
     m_MotorSpeed: 50
