@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+// Script to allow a person to move the cart
 public class CartMovement : MonoBehaviour {
 	// Start is called before the first frame update
 

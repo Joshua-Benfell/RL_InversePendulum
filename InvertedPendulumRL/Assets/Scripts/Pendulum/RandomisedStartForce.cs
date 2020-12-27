@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+// Script that randomly pushes the weight on the pendulum
 public class RandomisedStartForce : MonoBehaviour {
 	
 	private Vector2 force;
